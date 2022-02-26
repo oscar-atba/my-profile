@@ -1,0 +1,108 @@
+body{
+	background-color: #eff2d5;
+	color: black;	
+	font-family: helvetica;
+	font-size: 17px;
+	font-weight: normal;
+	}
+
+	h1,h2,h3, {
+		font-family: Helvetica;
+		}
+	h1 {
+		font-family: 'Roboto', sans-serif;
+		color: #727f00;
+		font-weight: 600;
+		letter-spacing: 1px;
+		font-size: 45px;
+		position: middle;
+		
+		}
+	h2 {
+		font-family: 'Oswald', sans-serif;
+		color: #727f00;
+		font-size: 24px;
+		font-weight: 400;
+		letter-spacing: 0.5px;
+		}
+
+	a {
+		text-decoration:none ;
+		color: #b1bf37;
+		font-weight: bold;
+		font-size: 19px;
+		font-family: 'Roboto', sans-serif;
+		transition: 0.3s ease;
+
+
+
+
+		}
+	a:hover{
+		color: orange;	
+		}
+
+	.container {
+		width: 700px;
+		margin: 40px auto;
+		}
+	
+
+	.card-design{
+		background-color: white;
+		padding: 40px;
+		margin: 20px 0px;
+		box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		text-align: center;
+		}
+		
+	
+
+
+	@media(max-width:  700px) {
+		.container {
+			width: 400px;
+		}
+	}
+
+	@media (max-width: 1200px) {
+		.container {
+			width: 600px;}
+	}
+
+	#Oscar {
+		width: 150px;
+		border-radius: 50%;
+		box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+		}
+
+	.btn-green {
+		background-color: #727f00;
+		color: white;
+		padding: 12px 20px;
+		border-radius: 5px;
+	}
+	.btn-green:hover{
+		background-color: #EFF2D5;
+		color: white;
+	}
+	.list-inline {
+		list-style: none;
+		padding-left: 0px;
+	}
+	.list-inline li{
+		display: inline;
+		padding: 10px;
+	}
+	.list-inline i{
+		font-size: 50px;
+		color: #EFF2D5;
+	}
+	.list-inline i:hover{
+		font-size: 50px;
+		color: #727f00;
+	}
+	#introduction p{
+		margin-bottom: 40px;
+	}
